@@ -1,0 +1,6 @@
+:root {
+  --accent-clr: hsl(4, 100%, 67%);
+  --button-bg-clr: hsl(234, 29%, 20%);
+  --body-bg-clr: hsl(235, 18%, 26%);
+  --text-clr: hsl(231, 7%, 60%);
+}
