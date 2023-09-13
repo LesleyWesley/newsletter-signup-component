@@ -124,6 +124,24 @@ input {
   margin-bottom: 2rem;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  padding-left: 1rem;
+  font-size: 1rem;
+  opacity: .7; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  padding-left: 1rem;
+  font-size: 1rem;
+  opacity: .7;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  padding-left: 1rem;
+  font-size: 1rem;
+  opacity: .7;
+}
+
 button {
   background-color: var(--button-bg-clr);
   color: var(--white);
