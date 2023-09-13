@@ -21,7 +21,7 @@
 
   <!-- Sign-up form start -->
 
-  <section class="sign-up-card">
+  <section class="sign-up-card hide">
       <img src="./assets/images/illustration-sign-up-mobile.svg" alt="">
 
       <div class="content-div">
@@ -37,7 +37,7 @@
               <form>
                   <div class="form-heading">
                       <h2>Email address</h2>
-                      <span class="error-message">Valid email required</span>
+                      <span class="error-message hide">Valid email required</span>
                   </div>
 
                   <label for="email">
@@ -55,9 +55,11 @@
 
   <!-- Success message start -->
   <section class="success-card">
-      <img src="./assets/images/icon-success.svg" alt="" />
-      <h3>Thanks for subscribing!</h3>
-      <p>A confirmation email has been sent to <span class="email">ash@loremcompany.com</span>. Please open it and click the button inside to confirm your subscription.</p>
+      <div class="success-content">
+          <img src="./assets/images/icon-success.svg" alt="" />
+          <h3>Thanks for subscribing!</h3>
+          <p>A confirmation email has been sent to <span class="email">ash@loremcompany.com</span>. Please open it and click the button inside to confirm your subscription.</p>
+      </div>
       <button type="button" class="dismiss-button">Dismiss message</button>
   </section>
 
