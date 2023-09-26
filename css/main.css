@@ -225,3 +225,35 @@ h3 {
 Tablet and Desktop Styling
 
 =================================================*/
+
+@media (min-width: 700px) {
+
+  body {
+    background-color: var(--body-bg-clr);
+    height: 100vh;
+  }
+
+  .sign-up-card {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    max-width: 50rem;
+    width: 80%;
+    border-radius: 1rem;
+    padding: 2rem 0 2rem 2rem;
+  }
+
+  .illustration {
+    background-image: url("../assets/images/illustration-sign-up-desktop.svg");
+    height: 100%;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  input {
+    margin-bottom: 1rem;
+  }
+
+}
